@@ -1,0 +1,10 @@
+.polygon {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    background-color: #00c185;
+    width: calc(100% + 20px);
+    height: 110vh
+}

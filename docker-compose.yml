@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  dobare_landing:
+    build: .
+    image: dobarelanding
+    container_name: dobare_landing
+
+    restart: unless-stopped
+
+    port:
+      - "3633:3000"
